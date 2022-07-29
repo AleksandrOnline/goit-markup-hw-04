@@ -278,6 +278,11 @@ footer {
     width: 270px;
 }
 
+.feature_svg{
+    width: 270px;
+    height: 120px;
+}
+
 .hidden-features{
         font-style: normal;
         font-weight: 700;
@@ -404,10 +409,17 @@ padding-bottom: 30px;
     align-items: center;
     width: 170px;
     height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    fill: currentColor;
+}
+.client-link:hover,
+.client-link:focus{
+    border: 1px solid var(--accent-color);
 }
 .client-link:hover .clients-icon,
 .client-link:focus .clients-icon{
-    fill: #2196F3;
+    fill: var(--accent-color);
 }
 .clients-icon{
     fill: #AFB1B8;
