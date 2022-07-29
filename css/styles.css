@@ -91,11 +91,18 @@ body{
     margin-right: 50px;
 }
 
+.page-header-home{
+    padding-top: 24px;
+    padding-bottom: 25px;
+    background: #FFFFFF;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .page-header{
     padding-top: 24px;
     padding-bottom: 25px;
     background: #FFFFFF;
-    width: 1600px;
     border-bottom: 1px solid #ECECEC;
     margin-left: auto;
         margin-right: auto;
@@ -179,14 +186,21 @@ color: var(--accent-color);
 
 /* Footer */
 
-footer {
+.footer {
     background-color: var(--background-color-dark);
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
+
 
 .footer-block{
     display: flex;
+    gap: 70px;
 }
 
+.social-link-footer{
+    padding-top: 12px;
+}
 
 .studio-footer {
     color: #FFFFFF;
@@ -344,7 +358,6 @@ padding-bottom: 30px;
 
 .our-team{
     background-color: #F5F4FA;
-    height: 648px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -433,13 +446,6 @@ footer{
     margin-right: auto;
 }
 
-.social-link-footer{
-    width: 206px;
-    height: 80px;
-    margin-left: 70px;
-    margin-top: 72px;
-}
-
 .studio-footer{
     color:#FFFFFF;
 }
@@ -504,6 +510,8 @@ footer{
         padding-bottom: 6px;
         padding-left: 22px;
         padding-right: 22px;
+        border: none;
+        border-radius: 4px;
 }
 
 .button-filter:hover,
@@ -547,10 +555,6 @@ footer{
 .employees-card-content-wrapper{
     border: 1px solid #EEEEEE;
     padding: 20px 24px;
-}
-
-.logo-footer{
-    margin-top: 60px;
 }
 
 .social-list-icon-footer{
