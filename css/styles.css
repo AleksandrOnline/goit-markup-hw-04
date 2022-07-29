@@ -150,8 +150,16 @@ body{
 .contacts-header:focus{
 color: var(--accent-color);
 }
+
+.contact-icone-mail{
+    fill: currentColor;
+}
+.contact-icone-phone{
+    fill: currentColor;
+}
+
 .contacts-header:hover .contact-icone-mail,
-.contacts-header:focus .contact-icone-mail{
+.contacts-header:focus .contact-icone-mail {
     color: var(--accent-color);
 }
 
